@@ -17,8 +17,11 @@ var portfolio_img = [{
     src: "factos/src/assets/port2.png",
     desc: "Site: Jornada de Quimica",
     link: ""
-}
-];
+}, {
+    src: "factos/src/assets/port3.png",
+    desc: "Site: BDOdonto",
+    link: ""
+}];
 
 var equipe = [{
         nome: "Lucas",
@@ -82,13 +85,13 @@ var set_minicursos = [
     {
         nome: "Introdução ao Linux",
         desc: "Curso básico de linux. Tem o objetivo de familiarizar os alunos com o Sistema Operacional Linux.",
-        link: "http://factos.ufpi.br/minicursos/minicursos/linux.html"
-    },
+        link: "https://goo.gl/forms/fYVrc3xzKy9jSiE32"
+    }/*,
     {
         nome: "Introdução a Web com HTML e CSS",
         desc: "Curso básico para o entendimento da Web. Tem como objetivo mostrar conceitos de HTML e CSS, bem como as novas tecnologias introduzidas no HTML e CSS.",
         link: "http://factos.ufpi.br/minicursos/minicursos/htmlcss.html"
-    }
+    }*/
 ];
 
 var set_contato = [
