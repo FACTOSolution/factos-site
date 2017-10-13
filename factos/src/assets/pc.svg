@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg7072"
+   version="1.1"
+   viewBox="0 0 36.458057 29.838564"
+   height="29.838564mm"
+   width="36.458057mm">
+  <defs
+     id="defs7066" />
+  <metadata
+     id="metadata7069">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-105.74716,-103.67596)"
+     id="layer1">
+    <g
+       id="g6903-1"
+       transform="matrix(0.59075574,0,0,0.59075574,-217.95655,-42.799107)">
+      <rect
+         style="fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:0.10058032;stroke-opacity:1"
+         id="rect5067-2-0-4-4-2"
+         width="61.714264"
+         height="41.38102"
+         x="547.94849"
+         y="247.94522"
+         ry="4.5215545" />
+      <path
+         style="fill:#b3b3b3;fill-opacity:1;stroke:none;stroke-width:0.42333335;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 567.89312,289.32623 c 10.32422,5.37395 -0.44612,4.78854 0,9.12813 h 10.81587 0.0966 0.0966 10.81588 c 0.44611,-4.33959 -10.32423,-3.75418 0,-9.12813 h -10.81588 -0.0966 -0.0966 z"
+         id="rect6566-7-5-8-8" />
+      <rect
+         style="fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.08461817;stroke-opacity:1"
+         id="rect5067-5-6-5-8-9"
+         width="57.912582"
+         height="31.211504"
+         x="549.8501"
+         y="252.79514"
+         ry="2.0462825" />
+      <rect
+         style="fill:#666666;fill-opacity:1;stroke:none;stroke-width:0.03033681;stroke-opacity:1"
+         id="rect5067-5-4-8-3"
+         width="57.909477"
+         height="4.0119042"
+         x="549.8501"
+         y="256.80557" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#beb300;stroke-width:0.00437988;stroke-opacity:1"
+         id="rect5067-5-3-2-1-9-6"
+         width="3.9687219"
+         height="1.2202104"
+         x="581.7312"
+         y="258.23196"
+         ry="0.50513047" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;stroke:#beb300;stroke-width:0.00689051;stroke-opacity:1"
+         id="rect5067-5-3-2-0-8-7-8"
+         width="5.0480862"
+         height="2.3743"
+         x="557.42206"
+         y="257.59879"
+         ry="0.51892412" />
+      <circle
+         style="fill:#241c1c;fill-opacity:1;stroke:none;stroke-width:0.10155169;stroke-opacity:1"
+         id="path5294-9-7-0"
+         cx="599.89844"
+         cy="254.70331"
+         r="0.72929883" />
+      <circle
+         style="fill:#241c1c;fill-opacity:1;stroke:none;stroke-width:0.10155169;stroke-opacity:1"
+         id="path5294-2-7-6-2"
+         cx="602.74554"
+         cy="254.70331"
+         r="0.72929883" />
+      <circle
+         style="fill:#241c1c;fill-opacity:1;stroke:none;stroke-width:0.10155169;stroke-opacity:1"
+         id="path5294-3-5-4-1"
+         cx="605.59259"
+         cy="254.70331"
+         r="0.72929883" />
+      <rect
+         style="fill:#00ff00;fill-opacity:1;stroke:#beb300;stroke-width:0.00437988;stroke-opacity:1"
+         id="rect5067-5-3-2-7-3-3-0"
+         width="3.9687219"
+         height="1.2202104"
+         x="588.02814"
+         y="258.23196"
+         ry="0.50513047" />
+      <rect
+         style="fill:#ffff00;fill-opacity:1;stroke:#beb300;stroke-width:0.00437988;stroke-opacity:1"
+         id="rect5067-5-3-2-5-8-0-5"
+         width="3.9687219"
+         height="1.2202104"
+         x="594.3252"
+         y="258.23196"
+         ry="0.50513047" />
+      <rect
+         style="fill:#ff0000;fill-opacity:1;stroke:#beb300;stroke-width:0.00437988;stroke-opacity:1"
+         id="rect5067-5-3-2-9-8-3-1"
+         width="3.9687219"
+         height="1.2202104"
+         x="600.62213"
+         y="258.23196"
+         ry="0.50513047" />
+    </g>
+  </g>
+</svg>

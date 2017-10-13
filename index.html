@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="author" content="jeovazero">
+    <meta name="description" content="FACTORY OF COMPUTATIONAL SOLUTIONS">
+    <link rel="stylesheet" type="text/css" href="factos/src/style.css">
+    <script src="factos/src/vue.min.js"></script>
+    <title> FACTOS </title>
+</head>
+
+<body>
+    <header id="header">
+        <div id="content_head">
+            <h1 id="head">
+                <img src="factos/src/assets/factos_logo.svg" alt="FACTOS">
+            </h1>
+            <div id="menu-square">
+                <span class="iconmenu"></span>
+            </div>
+            <nav id="menu">
+                <ul id="list">
+                    <a name="_servicos">
+                        <li> SERVIÇOS </li>
+                    </a>
+                    <a name="_portfolio">
+                        <li>PORTFOLIO </li>
+                    </a>
+                    <a name="_equipe">
+                        <li> EQUIPE </li>
+                    </a>
+                    <a name="_minicursos">
+                        <li> MINICURSOS </li>
+                    </a>
+                    <a name="_sobre">
+                        <li> SOBRE </li>
+                    </a>
+                    <a name="_contato">
+                        <li> CONTATO </li>
+                    </a>
+                </ul>
+            </nav>
+            <div style="clear: both;"></div>
+        </div>
+    </header>
+    <div id="wrapper">
+        <section id="intro" class="section">
+            <div class="container">
+                <div class="modal"></div>
+                <div class="content">
+                    <img src="factos/src/assets/factos_logo.svg" id="logo">
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+        </section>
+        <section name="servicos" id="servicos" class="section color-A">
+            <div class="container">
+                <div class="container_name">
+                    <div class="name left color-name-A">SERVIÇOS</div>
+                </div>
+
+                <div id="servicos_itens" class="set_itens">
+                    <div class="item" v-for="img in servico_img">
+                        <div class="item_img">
+                            <img v-bind:src="img.src">
+                        </div>
+                        <div class="item_desc">
+                            <h3>{{ img.desc }}</h3>
+                        </div>
+                    </div>
+                    <div style="clear: both;"></div>
+                </div>
+            </div>
+            <div class="two_bars">
+                <div class="bars first"></div>
+                <div class="bars second"></div>
+            </div>
+            <div style="clear: both;"></div>
+        </section>
+        <section name="portfolio" id="portfolio" class="section color-B">
+            <div class="container">
+                <div class="container_name">
+                    <div class="name left color-name-D">PORTFOLIO</div>
+                </div>
+                <div class="set_port sld">
+                    <div class="nav_seta nav_left">
+                        <img src="factos/src/assets/seta_left.png" />
+                    </div>
+                    <!--<div class="view_port">-->
+                    <div id="portfolio_itens" class="set_itens">
+                        <div class="item sld-item" v-for="img in portfolio_img">
+                            <a :is="img.link.length !== 0 ? 'a' : 'div'" v-bind:href="img.link" target="_blank">
+                                <img v-bind:src="img.src" class="port_img">
+                            </a>
+                            <div class="bar"></div>
+                            <div class="text">
+                                {{ img.desc }}
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--</div>-->
+                    <div class="nav_seta nav_right">
+                        <img src="factos/src/assets/seta_right.png" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section name="equipe" id="equipe" class="section color-C">
+            <div class="container">
+                <div class="container_name">
+                    <div class="name left color-name-D">EQUIPE</div>
+                </div>
+                <div class="set_equipe sld" id="set_equipe">
+                    <div class="nav_seta nav_left">
+                        <img src="factos/src/assets/seta_left.png" />
+                    </div>
+                    <div class="set_itens sld-item" v-for="elem in set_equipe" v-bind:id="elem.id">
+                        <div class="item" v-for="fulano in elem.list">
+                            <div class="item_img">
+                                <img v-bind:src="fulano.img" />
+                            </div>
+                            <div class="item_name">
+                                <h4>{{ fulano.nome }}</h4>
+                            </div>
+                            <div class="item_desc">
+                                <span>{{ fulano.funcao }}</span>
+                            </div>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                    <div class="nav_seta nav_right">
+                        <img src="factos/src/assets/seta_right.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="two_bars">
+                <div class="bars first"></div>
+                <div class="bars second"></div>
+            </div>
+            <div style="clear: both;"></div>
+        </section>
+        <section name="minicursos" id="minicursos" class="section color-B">
+                <div class="container">
+                    <div class="container_name">
+                        <div class="name color-name-A">MINICURSOS</div>
+                    </div>
+                    <div id="set_minicursos">
+                        <div class="item-curso" v-for="curso in cursos">
+                            <div class="item-nome">{{ curso.nome }}</div>
+                            <div class="item-desc">{{ curso.desc }}</div>
+                            <div class="item-link">
+                                <a v-bind:href="curso.link">Inscrição</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <section name="sobre" id="sobre" class="section color-D">
+            <div class="container">
+                <div class="container_name">
+                    <div class="name color-name-A">SOBRE</div>
+                </div>
+                <div class="set_sobre">
+                    <p>Somos uma Fábrica de Soluções Computacionais do Curso de Ciência da Computação da UFPI - Universidade
+                        Federal do Piauí. Trabalhamos com desenvolvimento de websites, aplicativos mobile e desktop. Almejamos
+                        ser referência em nível acadêmico e profissional através da prestação de serviços de qualidade.</p>
+                </div>
+            </div>
+        </section>
+        <section name="contato" id="contato" class="section">
+            <div class="container">
+                <div class="container_name">
+                    <div class="name">CONTATO</div>
+                </div>
+                <div class="set_contato" id="set_contato">
+                    <div class="item" v-for="item in set_contato">
+                        <div class="instance" v-for="elem in item">
+                            <div class="instance_name">{{ elem.name }}</div>
+                            <a :is="elem.link.length !== 0 ? 'a' : 'div'" v-bind:href="elem.link" target="_blank">
+                                <div class="instance_desc">{{ elem.desc }}</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>by FACTOS</footer>
+</body>
+<script>
+    var menuSquare = document.getElementById("menu-square");
+    var menu = document.getElementById("menu");
+    var mostrar = false;
+    menuSquare.onclick = function () {
+        if (mostrar == false) {
+            menu.classList.add("mostrar");
+        } else {
+            menu.classList.remove("mostrar");
+        }
+        mostrar = !mostrar;
+    }
+    menu.onclick = function () {
+        if (mostrar == true) {
+            menu.classList.remove("mostrar");
+        }
+        mostrar = !mostrar;
+    }
+</script>
+<script src="factos/src/vue_acction.js"></script>
+<script src="factos/src/acction.js"></script>
+
+</html>
