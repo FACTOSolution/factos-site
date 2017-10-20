@@ -452,7 +452,7 @@ section{
     position: relative;
     vertical-align: middle;
     width: 70%;
-    padding: 30px 1% 120px 1%;
+    padding: 30px 1% 20px 1%;
 }
 
 #portfolio .bar{
@@ -530,6 +530,7 @@ section{
     position: relative;
     width: 100%;
     max-width: 720px;
+    padding-bottom: 40px;
 }
 
 #equipe {
@@ -676,7 +677,7 @@ section{
 }
 
 #set_minicursos{
-    padding: 90px 20px 90px 20px;
+    padding: 90px 10px 90px 10px;
 }
 
 #minicursos .item-curso{
@@ -840,6 +841,9 @@ footer {
     #minicursos .item-curso{
         width: 400px
     }
+    #list li{
+        padding: 0px 3px;
+    }
 }
 
 @media screen and (min-width: 300px) and (max-width: 480px) {
@@ -853,7 +857,7 @@ footer {
         /*! color: white; */
     }
     #servicos .set_itens {
-        width: 350px;
+        width: 320px;
     }
     #servicos .item{
         float: left;
@@ -868,7 +872,7 @@ footer {
         width: 100%;
     }
     #equipe .set_equipe {
-        width: 350px;
+        width: 320px;
     }
     #equipe .set_itens {
         width: 70%;
@@ -885,7 +889,7 @@ footer {
         font-size: 2em;
     }
     #minicursos .item-curso{
-        width: 300px
+        width: 280px;
     }
 }
 
