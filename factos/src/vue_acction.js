@@ -78,6 +78,11 @@ var equipe = [{
         nome: "Elineide",
         funcao: "Desenvolvedora Front-end",
         img: "https://gravatar.com/avatar/842f482d0f0c17a71c4d3f91705503ba.jpg?s=200"
+    },
+    {
+        nome: "Ricardo",
+        funcao: "Coordenador",
+        img: "https://scontent.frec10-1.fna.fbcdn.net/v/t1.0-9/15032684_1025962427530463_701155028892175279_n.jpg?oh=f3d984f0709876e3aae70a9104ec80e1&oe=5A95F85C"
     }
 ];
 
