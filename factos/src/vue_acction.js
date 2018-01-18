@@ -83,6 +83,16 @@ var equipe = [{
         nome: "Ricardo",
         funcao: "Coordenador",
         img: "https://scontent.frec10-1.fna.fbcdn.net/v/t1.0-9/15032684_1025962427530463_701155028892175279_n.jpg?oh=f3d984f0709876e3aae70a9104ec80e1&oe=5A95F85C"
+    },
+    {
+        nome: "Armando",
+        funcao: "Coordenador",
+        img: "https://avatars1.githubusercontent.com/u/328464?s=400&v=4"
+    },
+    {
+        nome: "Valdemir",
+        funcao: "Coordenador",
+        img: "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4713820Y6"
     }
 ];
 
