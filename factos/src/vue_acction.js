@@ -92,7 +92,7 @@ var equipe = [{
     {
         nome: "Valdemir",
         funcao: "Coordenador",
-        img: "http://servicosweb.cnpq.br/wspessoa/servletrecuperafoto?tipo=1&id=K4713820Y6"
+        img: "factos/src/assets/valdemir.jpg"
     }
 ];
 
