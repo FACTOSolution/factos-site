@@ -23,24 +23,24 @@ var portfolio_img = [{
     link: ""
 }];
 
-var equipe = [{
-        nome: "Lucas",
+var equipe = [
+    {
+        nome: "Lucas Brito",
         funcao: "Desenvolvedor Android",
         img: "https://gravatar.com/avatar/4f407c04d21cf513944af569479e4e8c.jpg?s=200"
-
     },
     {
-        nome: "Kássio",
+        nome: "Kássio Venícios",
         funcao: "Desenvolvedor Front-end",
         img: "https://gravatar.com/avatar/49f7bf5f89f0d13aafb83bfc8261243b.jpg?s=200"
     },
     {
-        nome: "Pedro",
+        nome: "Pedro Albuquerque",
         funcao: "Desenvolvedor Back-end",
         img: "https://gravatar.com/avatar/e5884a42a4d7b2080617fc8495bc4c5a.jpg?s=200"
     },
     {
-        nome: "Orlando",
+        nome: "Orlando Amorim",
         funcao: "Desenvolvedor IOS",
         img: "https://gravatar.com/avatar/54e21f266bf31a5bdbb2dcb116725ae7.jpg?s=200"
     },
@@ -50,49 +50,59 @@ var equipe = [{
         img: "https://gravatar.com/avatar/26fa51b09d3211071dcf9963cb592f65.jpg?s=200"
     },
     {
-        nome: "Neclyeux",
+        nome: "Neclyeux Sousa",
         funcao: "Desenvolvedor Back-end",
         img: "https://gravatar.com/avatar/9ac4734438f7d01eda79f1aa47edd9b5.jpg?s=200"
     },
     {
-        nome: "Pablo",
+        nome: "Pablo Vinícius",
         funcao: "Desenvolvedor Back-end",
         img: "https://gravatar.com/avatar/14b4540eadfd1ddeb0f533e9c279adf5.jpg?s=200"
     },
     {
-        nome: "Renato",
+        nome: "Renato Almeida",
         funcao: "Desenvolvedor Back-end",
         img: "https://gravatar.com/avatar/da0bf491209fa5a5fa3e89bc582bee72.jpg?s=200"
     },
     {
-        nome: "Edson",
+        nome: "Edson Moita",
         funcao: "Desenvolvedor Back-end",
         img: "https://gravatar.com/avatar/cc9c4a02a3bf9562500b18d4c3cfa97f.jpg?s=200"
     },
     {
-        nome: "Jeova",
+        nome: "Jeova Pereira",
         funcao: "Desenvolvedor FullStack",
         img: "https://gravatar.com/avatar/c5d420a8a2008cc3117d7eaa96f2b281.jpg?s=200"
     },
     {
-        nome: "Elineide",
+        nome: "Elineide Silva",
         funcao: "Desenvolvedora Front-end",
         img: "https://gravatar.com/avatar/842f482d0f0c17a71c4d3f91705503ba.jpg?s=200"
     },
     {
-        nome: "Ricardo",
+        nome: "Ricardo Lira",
         funcao: "Coordenador",
         img: "https://scontent.frec10-1.fna.fbcdn.net/v/t1.0-9/15032684_1025962427530463_701155028892175279_n.jpg?oh=f3d984f0709876e3aae70a9104ec80e1&oe=5A95F85C"
     },
     {
-        nome: "Armando",
+        nome: "Armando Sousa",
         funcao: "Coordenador",
         img: "https://avatars1.githubusercontent.com/u/328464?s=400&v=4"
     },
     {
-        nome: "Valdemir",
+        nome: "Valdemir Junior",
         funcao: "Coordenador",
         img: "factos/src/assets/valdemir.jpg"
+    },
+    {
+        nome: "Alcilene Dalila",
+        funcao: "Coordenadora",
+        img: "factos/src/assets/alcilene.jpg"
+    },
+    {
+        nome: "Antônio Oséas",
+        funcao: "Coordenador",
+        img: "factos/src/assets/antoniooseas.png"
     }
 ];
 
