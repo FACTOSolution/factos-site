@@ -82,12 +82,12 @@ var equipe = [
     {
         nome: "Ricardo Lira",
         funcao: "Coordenador",
-        img: "https://scontent.frec10-1.fna.fbcdn.net/v/t1.0-9/15032684_1025962427530463_701155028892175279_n.jpg?oh=f3d984f0709876e3aae70a9104ec80e1&oe=5A95F85C"
+        img: "factos/src/assets/ricardo.jpg"
     },
     {
         nome: "Armando Sousa",
         funcao: "Coordenador",
-        img: "https://avatars1.githubusercontent.com/u/328464?s=400&v=4"
+        img: "factos/src/assets/armando.jpeg"
     },
     {
         nome: "Valdemir Junior",
